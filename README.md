@@ -14,7 +14,7 @@ Converter Plugin that brings Jade support to the [Jekyll blog-aware, static site
 
 Unfortunately Jekyll doesn't yet allow plugins to pre-process layout files before further processing.  To write your layouts in Jade, you therefore have to render them externally.  Fortunately this only needs to be done frequently for a small period of time, during layout development.
 
-It is then recommended:
+During layout development, we recommend:
 
  1. Create a `_layouts/jade/` folder where you will place your "pre-rendered" Jade source.
  2. Create a `Makefile` or shell script to execute the Jade compile-and-watch command: `jade -w -o ../ *.jade`
