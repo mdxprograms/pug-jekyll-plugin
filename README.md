@@ -20,6 +20,10 @@ During layout development, we recommend:
  2. Create a `Makefile` or shell script to execute the Jade compile-and-watch command: `jade -w -o ../ *.jade`
  3. In another terminal, simultaneously run your Jekyll builds: e.g. `jekyll serve -w`
 
+## See Also
+
+Read the companion blog post, [Templating your Jekyll Blog with Jade](http://www.snappylabs.com/blog/web/2013/06/12/templating-your-jekyll-blog-with-jade/).
+
 ## License
 
 See [LICENSE](https://github.com/snappylabs/jade-jekyll-plugin/blob/master/LICENSE).
