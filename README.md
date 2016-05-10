@@ -1,5 +1,5 @@
-pug-jekyll-plugin (previously jade-jekyll-plugin
-================================================
+pug-jekyll-plugin (previously jade-jekyll-plugin)
+=================================================
 
 Converter Plugin that brings Pug support to the [Jekyll blog-aware, static site generator](http://jekyllrb.com/).
 
