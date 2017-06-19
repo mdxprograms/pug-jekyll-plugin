@@ -18,7 +18,7 @@ module Jekyll
 
     def convert(content)
       begin
-        o, e, s = Open3.capture3("pug", :stdin_data => content)
+        o, e, s = Open3.capture3('pug -p .', :stdin_data => content)
         puts(<<-eos
 Pug Error >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #{e}
